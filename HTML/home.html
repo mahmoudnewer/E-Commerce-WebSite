@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/fontawesome-free-6.4.0-web/css/all.css">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <section id="header">
+        <nav>
+            <div style="font-size: xx-large; padding: 3px; margin-left: 10px;"> Shopfiy</div>
+            <ul id="navv">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+
+            <div id="cartContainer">
+                <div> <i class="fa-solid fa-cart-shopping fa-bounce fa-xl"> </i> </div>
+                <div id="cart"></div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="slider">
+        <div id="sliderImgs">
+            <span id="next" class="direction" onclick="previous()"
+                style="left:35px; border-radius: 0 10px 10px 0;">❮</span>
+            <img src="../imgs/sliders/slider1.jpg" class="activeSlider" alt="">
+            <img src="../imgs/sliders/slider3.jpg" class="noneActiveSlider" alt="">
+            <img src="../imgs/sliders/slider2.jpg" class="noneActiveSlider" alt="">
+            <img src="../imgs/sliders/slider4.jpg" class="noneActiveSlider" alt="">
+            <span id="previous" class="direction" onclick="next()"
+                style="right:35px; border-radius: 10px 0 0 10px;">❯</span>
+        </div>
+    </section>
+
+
+    <i id="up" style="position: fixed; right: 30px;" class="fa-sharp fa-solid fa-arrow-up fa-2xl"></i>
+
+    <section id="info">
+        <div id="infoContainer">
+            <img src="../imgs/pexels-photo-5632370.jpeg" alt="">
+            <div>
+                <span style="font-size: 40px; display: block;padding-bottom:6%">Shop is fun</span>
+                <span style="font-size: 50px; display: block;font-weight: bold;line-height:11px;">BROWSE OUR </span>
+                <span style="font-size: 50px; display: block;font-weight: bold;">PREMIUM PRODUCT</span>
+                <span style="font-size: 20px; ">
+                    Welcome to our online store! We're thrilled to offer you a wide
+                    <br> selection of high-quality products at affordable prices. items
+                    <br> to must-have gadgets and accessories, we've got everything you
+                    <br> need to upgrade your lifestyle. Our easy-to-use website allows
+                    <br> you to browse and shop from the comfort of your own home,and
+                    <br> our fast and reliable shipping ensures that your order will
+                    <br> arrive at your doorstep in no time.
+                </span>
+                <br>
+                <br>
+                <button id="browse">
+                    Browse Now
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="products">
+        <div style="text-align:center;font-size:  xx-large;font-weight: bold;  margin-top: 30px;">
+            OUR PRODUCTS
+            <span style="font-size: large;font-weight: normal;"> <br>
+                <div>
+                    <p style="margin: 0%;">Browse the collection of our best selling and top interresting </p>
+
+                    <p style="margin: 0%;">products.You’ll definitely find what you are looking for.</p>
+                </div>
+            </span>
+        </div>
+        <div style="margin-top: 40px;">
+            <ul id="categories">
+                <li class="activeCategory">CARS</li>
+                <li class="notActiveCategory">PHONES</li>
+                <li class="notActiveCategory">LAPTOPS</li>
+                <li class="notActiveCategory">MAKEUPS</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="goods">
+
+        <div id="divsContainer">
+
+            <div class="activeType cars">
+                <div class="imgs" style="background-image: url(../imgs/cars/car1.jpg);"> </div>
+                <div style="text-align: center;">
+                    <span class="activeSpan2">Black Bently</span>
+                    <span class="activeSpan">300.000$</span>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="activeType cars">
+                <div class="imgs" style="background-image: url(../imgs/cars/car2.jpg);"></div>
+                <div style="text-align: center;">
+                    <span class="activeSpan2">Ford</span>
+                    <span class="activeSpan">250.000$</span>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="activeType cars">
+                <div class="imgs" style="background-image: url(../imgs/cars/car3.jpg);"></div>
+                <div style="text-align: center;">
+                    <span class="activeSpan2">Mercedes G Class</span>
+                    <span class="activeSpan">400.000$</span>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="activeType cars">
+                <div class="imgs" style="background-image: url(../imgs/cars/car4.jpg);"></div>
+                <div style="text-align: center;">
+                    <span class="activeSpan2">Audi</span>
+                    <span class="activeSpan">500.000$</span>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="notActiveType laptops">
+                <div class="imgs" style="background-image: url(../imgs/laptops/lap1.jpg);"></div>
+                <div style="text-align: center;">
+                    <span class="activeSpan2">Lenovo</span>
+                    <span class="activeSpan">100$</span>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="notActiveType laptops">
+                <div class="imgs" style="background-image: url(../imgs/laptops/lap2.jpg);"></div>
+                <div style="text-align: center;">
+                    <span class="activeSpan2">MAC Book</span>
+                    <span class="activeSpan">400$</span>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="notActiveType laptops">
+                <div class="imgs" style="background-image: url(../imgs/laptops/lap3.jpg);"></div>
+                <div style="text-align: center;">
+                    <span class="activeSpan2">DELL</span>
+                    <span class="activeSpan">200$</span>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="notActiveType laptops">
+                <div class="imgs" style="background-image: url(../imgs/laptops/lap4.jpg);"></div>
+                <div style="text-align: center;">
+                    <span class="activeSpan2">Hp</span>
+                    <span class="activeSpan">150$</span>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="notActiveType makeups">
+                <div class="imgs" style="background-image: url(../imgs/makeup/makeup1.jpg);"></div>
+                <div style="text-align: center;">
+                    <span class="activeSpan2">Palette</span>
+                    <span class="activeSpan">25$</span>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="notActiveType makeups">
+                <div class="imgs" style="background-image: url(../imgs/makeup/makeup2.jpg);"></div>
+                <div style="text-align: center;">
+                    <span class="activeSpan2">Rouge</span>
+                    <span class="activeSpan">30$</span>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="notActiveType makeups">
+                <div class="imgs" style="background-image: url(../imgs/makeup/makeup3.jpg);"></div>
+                <div style="text-align: center;">
+                    <span class="activeSpan2">Eye liner</span>
+                    <span class="activeSpan">40$</span>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="notActiveType makeups">
+                <div class="imgs" style="background-image: url(../imgs/makeup/makeup4.jpg);"></div>
+                <div style="text-align: center;">
+                    <span class="activeSpan2">Mascara</span>
+                    <span class="activeSpan">300.000$</span>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="notActiveType phones">
+                <div class="imgs" style="background-image: url(../imgs/phones/phone1.jpg);"></div>
+                <div style="text-align: center;">
+                    <span class="activeSpan2">IPhone-XR</span>
+                    <span class="activeSpan">80$</span>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="notActiveType phones">
+                <div class="imgs" style="background-image: url(../imgs/phones/phone2.jpg);"></div>
+                <div style="text-align: center;">
+                    <span class="activeSpan2">Oppo</span>
+                    <span class="activeSpan">40$</span>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="notActiveType phones">
+                <div class="imgs" style="background-image: url(../imgs/phones/phone3.jpg);"></div>
+                <div style="text-align: center;">
+                    <span class="activeSpan2">Huwaei</span>
+                    <span class="activeSpan">60$</span>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="notActiveType phones">
+                <div class="imgs" style="background-image: url(../imgs/phones/phone4.jpg);"></div>
+                <div style="text-align: center;">
+                    <span class="activeSpan2">Samsung</span>
+                    <span class="activeSpan">80$</span>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+            </div>
+
+            <div class="notActiveType phones">
+                <div class="imgs" style="background-image: url(../imgs/phones/phone5.jpg);"></div>
+                <div style="text-align: center;">
+                    <span class="activeSpan2">Samsung</span>
+                    <span class="activeSpan">80$</span>
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer id="footer">
+        <div id="footerDiv">
+
+            <div style="text-align: left;">
+                <h2 style="color: white;font-weight: bold;">Our Mission</h2>
+                <span style="line-height: 1.4;">
+                    So seed seed green that winged cattle in.
+                    <br>
+                    Gathering thing made fly you're divided
+                    <br>
+                    deep moved us lan Gathering thing us
+                    <br>
+                    land years living.So seed seed green
+                    <br>
+                    that winged cattle in. Gathering thing
+                    <br>
+                    made fly you're no divided deep moved
+                </span>
+            </div>
+            <div>
+                <h3 style="color: white;font-weight: bold;">Quick Links</h3>
+                <div>
+                    <ul id="links" style="padding: 0;">
+                        <li>Home</li>
+                        <li>Shop</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                        <li>Brand</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div>
+                <h3 style="color: white;font-weight: bold;">Contact Us</h3>
+                <ul id="social" style="padding: 0;">
+                    <li> <i class="fa-brands fa-facebook fa-lg"></i> Shopify </li>
+                    <li> <i class="fa-brands fa-twitter fa-lg"></i> Shopfiy </li>
+                    <li> <i class="fa-solid fa-phone fa-lg"></i> +123 456 7890 </li>
+                    <li> <i class="fa-solid fa-envelope fa-lg"></i> free@infoexample.com </li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div
+            style=" display:flex; align-items: center; justify-content: center; color: white;background-color:#05274b;height: 60px;">
+            Copyright ©2023 All rights reserved</div>
+    </footer>
+
+
+
+    <script src="../JS/script.js"></script>
+</body>
+
+</html>

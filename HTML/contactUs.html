@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/contactUsStyle.css">
+    <link rel="stylesheet" href="../CSS/fontawesome-free-6.4.0-web/css/all.css">
+
+    <title>ContactUs</title>
+</head>
+<body>
+
+    
+    <section id="header">
+        <nav>
+            <div style="font-size: xx-large; padding: 3px; margin-left: 10px;"> Shopfiy</div>
+            <ul id="navv">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+            
+            <div id="cartContainer" >  
+                <div> <i class="fa-solid fa-cart-shopping fa-bounce fa-xl"> </i> </div>
+                <div id="cart" ></div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="form">
+
+        <div id="container">
+            <div id="secContainer">
+                <h1 style="text-align: center; font-weight: bolder; font-size: 32px;">Contact Us</h1>
+                <form action="" method="post">
+                    <label for="fname" style="margin-top: 2px;">Full Name</label>
+                    <div>
+                        <input type="text" id="fname" >
+                        <span id="nameErrorSpan" style="display: block;color: red; padding-left: 8px;"></span>
+                    </div>
+
+                    <label for="email" style="margin-top: 2px;" >Email</label>
+                    <div>
+                        <input type="email" id="email" >
+                        <span id="emailErrorSpan" style="display: block;color: red; padding-left: 8px;"></span>
+                    </div>
+
+        
+                    <label for="phone" style="margin-top: 2px;">Phone</label>
+                    <div>
+                        <input type="number" id="phone">
+                        <span id="phoneErrorSpan" style="display: block; color: red; padding-left: 8px;"></span>
+                    </div>
+
+        
+        
+                    <div class="btns">
+                        <input id="contactUs" value="Contact Us" type="button" class="btns_fr"
+                            style="color:white;background-color: green; height: 70%;">
+        
+                    </div>
+        
+                </form>
+            </div>
+
+        </div>
+
+        <section id="location">
+            <p style="text-align: center;font-size:xx-large;font-weight: bold;">Location</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.61185009533!2d31.176061926669306!3d30.05961134365448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1681473688289!5m2!1sen!2seg"  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <footer id="footer">
+            <div id="footerDiv">
+                
+                <div style="text-align: left;">
+                    <h2 style="color: white;font-weight: bold;">Our Mission</h2>
+                    <span style="line-height: 1.4;">
+                        So seed seed green that winged cattle in.
+                        <br>
+                        Gathering thing made fly you're divided
+                        <br>
+                        deep moved us lan Gathering thing us 
+                        <br>
+                        land years living.So seed seed green 
+                        <br>
+                        that winged cattle in. Gathering thing
+                        <br>
+                        made fly you're no divided deep moved
+                    </span>
+                </div>
+                <div>
+                    <h3 style="color: white;font-weight: bold;" >Quick Links</h3>
+                    <div>
+                        <ul id="links" style="padding: 0;">
+                            <li>Home</li>
+                            <li>Shop</li>
+                            <li>Blog</li>
+                            <li>Contact</li>
+                            <li>Brand</li>
+                        </ul>
+                    </div>
+    
+    
+                </div>
+    
+                <div >
+                    <h3 style="color: white;font-weight: bold;" >Contact Us</h3>
+                    <ul id="social" style="padding: 0;" >
+                        <li> <i class="fa-brands fa-facebook fa-lg"></i> Shopify </li>
+                        <li> <i class="fa-brands fa-twitter fa-lg"></i> Shopfiy </li>
+                        <li> <i class="fa-solid fa-phone fa-lg"></i> +123 456 7890 </li>
+                        <li> <i class="fa-solid fa-envelope fa-lg"></i> free@infoexample.com </li>
+                    </ul>
+    
+                </div>
+    
+            </div>
+            <div style=" display:flex; align-items: center; justify-content: center; color: white;background-color:#05274b;height: 60px;" >Copyright ©2023 All rights reserved</div>
+        </footer>
+        
+
+    </section>
+
+    <script src="../JS/contactUsScript.js"></script>
+</body>
+</html>

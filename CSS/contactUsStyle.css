@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+body
+{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f1f6f7;
+    font-family: 'Cairo', sans-serif;
+}
+#header
+{
+    background-color: white;
+    color: black;
+    padding: 0.5%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navv
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+}
+#navv li
+{
+    margin-right: 60px;
+    font-size: 20px;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+
+}
+
+#cartContainer
+{
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+}
+#cart
+{
+    margin-left: 5px;
+}
+
+
+
+form
+{
+    display: grid;
+    grid-template-columns: 90px 80% ;
+    grid-template-rows: 55px 55px 55px 55px   ;
+    background-color: white;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0 2px 40px rgba(14,30,37,.16);
+    padding: 40px 25px 20px 20px;
+
+}
+
+
+
+input
+{
+    /* margin: 5px; */
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    width: 90%;
+    height: 22px;
+}
+label
+{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    /* font-weight: 600; */
+    font-size: 18px;
+}
+
+#container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin-top: 60px;
+    /* background-color: lightblue; */
+    /* height: 60vh; */
+}
+
+
+
+.btns
+{
+    grid-column: 2;
+    grid-row: 4;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.btns_fr
+{
+    width: 35%;
+}
+
+#secContainer
+{
+    width: 35%;
+}
+
+
+
+
+
+
+footer
+{
+    background-color: #002347;
+}
+
+#footerDiv
+{
+    display: flex;
+    justify-content: space-evenly;
+    color: #7b838a;
+}
+
+#links li
+{
+    margin-bottom: 12px;
+    list-style: none;
+}
+#social li 
+{
+    margin-bottom: 22px;
+    list-style: none;
+}
+
+iframe
+{
+    margin-bottom: 100px;
+}

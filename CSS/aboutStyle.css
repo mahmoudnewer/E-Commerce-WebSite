@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f1f6f7;
+    font-family: 'Cairo', sans-serif;
+}
+
+#header {
+    background-color: white;
+    color: black;
+    padding: 0.5%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#navv {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#navv li {
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+#cartContainer {
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#cart {
+    margin-left: 5px;
+}
+
+
+
+#infoo {
+
+    margin: 66px 0 0 0;
+
+}
+
+#divInfo {
+    background-color: #bfdbe8;
+    width: 100%;
+    /* height: 70vh; */
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+#text {
+    color: black;
+    margin-left: 130px;
+
+}
+
+#browse {
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 10px;
+    border: none;
+    background-color: #5da0cf;
+    margin-top: 5px;
+}
+
+#browse:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #002347;
+}
+
+#footerDiv {
+    display: flex;
+    justify-content: space-evenly;
+    color: #7b838a;
+}
+
+#links li {
+    margin-bottom: 12px;
+    list-style: none;
+}
+
+#social li {
+    margin-bottom: 22px;
+    list-style: none;
+}
